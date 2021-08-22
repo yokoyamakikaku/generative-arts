@@ -28,11 +28,11 @@ class Decision {
     this.terms = [{
       x: u(-45),
       y: u(-25.5),
-      title: '休日'
+      title: '提訴'
     }, {
       x: u(16),
       y: u(-25.5),
-      title: '出勤'
+      title: '決議'
     }]
   }
 
