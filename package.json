@@ -7,9 +7,9 @@
     "start": "http-server ./public",
     "create": "node scripts/create",
     "create:project": "node scripts/create/project",
-    "update": "node scripts/update",
-    "update:home": "node scripts/update/home",
-    "update:projects": "node scripts/update/projects"
+    "build": "node scripts/build",
+    "build:home": "node scripts/build/home",
+    "build:projects": "node scripts/build/projects"
   },
   "author": "seekseep <seekseep@gmail.com>",
   "license": "ISC",
