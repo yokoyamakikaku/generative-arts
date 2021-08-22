@@ -6,7 +6,7 @@ const { buildProject } = require("../build/projects")
 const {
   PROJECTS_PATH,
   SKETCH_TEMPLATE_PATH
-} = require("./config")
+} = require("../config")
 
 function createProject() {
   console.log("start to create a project page")

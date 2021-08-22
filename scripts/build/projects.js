@@ -8,14 +8,14 @@ const {
 } = require("../config")
 
 function loadProjectConfig(id) {
-  const configPath = resolve(PROJECTS_PATH, id, "config.json")
+  const configPath = resolve(PROJECTS_PATH, `${id}`, "config.json")
   if (!existsSync(configPath)) return {}
 
   return require(configPath)
 }
 
 function buildProject(id) {
-  const projectPath = resolve(PROJECTS_PATH, id)
+  const projectPath = resolve(PROJECTS_PATH, `${id}`)
   const config = loadProjectConfig(id)
 
   const title = config.title || `Project #${id}`
@@ -56,4 +56,4 @@ if (require.main === module) {
 }
 
 module.exports = buildProjects
-exports.buildProject = buildProject
+module.exports.buildProject = buildProject
