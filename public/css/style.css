@@ -1,0 +1,54 @@
+:root {
+  font-size: 16px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 1rem;
+}
+
+.home {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.home__title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.home__description a{
+  margin: 0 0.5rem;
+}
+
+.projects {
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.projects-navigation {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 1rem 0;
+  gap: 1rem;
+  padding: 0;
+}
+
+.project {
+  margin-left: 1rem;
+  width: 12rem;
+}
+
+.project__link {
+  display: block;
+  padding: 0.5rem;
+}
+
+.project__link:hover {
+  background-color: #EEE;
+}

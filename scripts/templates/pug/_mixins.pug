@@ -1,0 +1,4 @@
+mixin google-fonts(families = [])
+  link(rel="preconnect" href="https://fonts.googleapis.com")/
+  link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)/
+  link(rel="stylesheet" href=`https://fonts.googleapis.com/css2?${families.map(family => `family=${family}`).join("&")}&display=none`)

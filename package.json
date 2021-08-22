@@ -1,0 +1,21 @@
+{
+  "name": "generative-arts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./public",
+    "create": "node scripts/create",
+    "create:project": "node scripts/create/project",
+    "update": "node scripts/update",
+    "update:home": "node scripts/update/home",
+    "update:projects": "node scripts/update/projects"
+  },
+  "author": "seekseep <seekseep@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^7.1.7",
+    "http-server": "^0.12.3",
+    "pug": "^3.0.2"
+  }
+}

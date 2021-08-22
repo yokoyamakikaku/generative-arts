@@ -1,0 +1,18 @@
+extends _layout
+
+block title
+  title Generative Arts
+
+
+block contents
+
+  .home
+    h1.home__title Generative Arts
+    p.home__description
+      | by
+      a(href="https://yokoyamakikaku.work/") 横山企画
+
+  ul.projects
+    each project in projects
+      li.project
+        a.project__link(href=`/projects/${project}`) ##{project}

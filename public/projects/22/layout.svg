@@ -1,0 +1,63 @@
+<svg id="layer"
+  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>.cls-1{fill:none;stroke:#ff00f9;stroke-miterlimit:10;stroke-width:2px;}</style>
+  </defs>
+  <g id="frames">
+    <rect id="inner" class="cls-1" x="40" y="40" width="720" height="520"/>
+    <rect id="outer" class="cls-1" x="8" y="8" width="784" height="584"/>
+  </g>
+  <g id="base">
+    <rect id="label" class="cls-1" x="352" y="392" width="96" height="24"/>
+    <polygon id="triangle" class="cls-1" points="224 456 576 456 400 296 224 456"/>
+  </g>
+  <g id="balthasar">
+    <polygon id="outer-2" data-name="outer" class="cls-1" points="536 288 536 96 264 96 264 288 352 376 448 376 536 288"/>
+    <polygon id="inner-2" data-name="inner" class="cls-1" points="352.83 374 266 287.17 266 98 534 98 534 287.17 447.17 374 352.83 374"/>
+  </g>
+  <g id="casper">
+    <polygon id="outer-3" data-name="outer" class="cls-1" points="256 320 352 416 352 520 56 520 56 320 256 320"/>
+    <polygon id="inner-3" data-name="inner" class="cls-1" points="58 518 58 322 255.17 322 350 416.83 350 518 58 518"/>
+  </g>
+  <g id="melchior">
+    <polygon id="outer-4" data-name="outer" class="cls-1" points="544 320 448 416 448 520 744 520 744 320 544 320"/>
+    <polygon id="inner-4" data-name="inner" class="cls-1" points="450 518 450 416.83 544.83 322 742 322 742 518 450 518"/>
+  </g>
+  <g id="decision">
+    <g id="status">
+      <rect id="outer-5" data-name="outer" class="cls-1" x="584" y="240" width="152" height="64"/>
+      <rect id="inner-5" data-name="inner" class="cls-1" x="592" y="248" width="136" height="48"/>
+    </g>
+    <g id="header">
+      <g id="left">
+        <rect class="cls-1" x="40" y="96" width="224" height="16"/>
+        <rect class="cls-1" x="40" y="176" width="224" height="16"/>
+        <rect class="cls-1" x="40" y="112" width="16" height="64"/>
+        <rect class="cls-1" x="248" y="112" width="16" height="64"/>
+        <rect class="cls-1" x="144" y="112" width="16" height="64"/>
+        <rect class="cls-1" x="160" y="112" width="88" height="64"/>
+        <rect class="cls-1" x="56" y="112" width="88" height="64"/>
+      </g>
+      <g id="right">
+        <rect class="cls-1" x="536" y="96" width="224" height="16"/>
+        <rect class="cls-1" x="536" y="176" width="224" height="16"/>
+        <rect class="cls-1" x="536" y="112" width="16" height="64"/>
+        <rect class="cls-1" x="744" y="112" width="16" height="64"/>
+        <rect class="cls-1" x="640" y="112" width="16" height="64"/>
+        <rect class="cls-1" x="656" y="112" width="88" height="64"/>
+        <rect class="cls-1" x="552" y="112" width="88" height="64"/>
+      </g>
+    </g>
+    <g id="env">
+      <g id="lines">
+        <rect id="line" class="cls-1" x="72" y="240" width="184" height="16"/>
+        <rect id="line-2" data-name="line" class="cls-1" x="56" y="200" width="200" height="32"/>
+        <rect id="line-3" data-name="line" class="cls-1" x="72" y="288" width="184" height="16"/>
+        <rect id="line-4" data-name="line" class="cls-1" x="72" y="256" width="184" height="16"/>
+        <rect id="line-5" data-name="line" class="cls-1" x="72" y="272" width="184" height="16"/>
+      </g>
+      <rect id="code" class="cls-1" x="56" y="200" width="200" height="104"/>
+    </g>
+  </g>
+  <rect class="cls-1" x="310" y="212" width="180" height="48"/>
+</svg>

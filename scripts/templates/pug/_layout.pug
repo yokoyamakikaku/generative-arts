@@ -1,0 +1,15 @@
+include ./_mixins
+
+html(lang="ja")
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    block title
+      title Generative Art
+    block fonts
+      +google-fonts(families)
+    block styles
+      link(rel="stylesheet" href="/css/style.css")/
+  body
+    block contents
+
+    block scripts
