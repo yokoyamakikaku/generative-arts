@@ -1,13 +1,10 @@
 const { readdirSync, mkdirSync, readFileSync, writeFileSync } = require("fs")
 const { resolve } = require("path")
-const pug = require("pug")
 
-const { getProcessArgument } = require("../uitilities")
-const updateProjects = require("../update/projects")
+const { buildProject } = require("../build/projects")
 
 const {
   PROJECTS_PATH,
-  PROJECT_TEMPLATE_PATH,
   SKETCH_TEMPLATE_PATH
 } = require("./config")
 
@@ -25,7 +22,7 @@ function createProject() {
   mkdirSync(projectPath, { recursive: true })
   writeFileSync(scriptPath, script)
 
-  updateProject(id)
+  buildProject(id)
 
   console.log("done")
 }

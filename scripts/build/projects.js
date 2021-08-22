@@ -14,7 +14,7 @@ function loadProjectConfig(id) {
   return require(configPath)
 }
 
-function updateProject(id) {
+function buildProject(id) {
   const projectPath = resolve(PROJECTS_PATH, id)
   const config = loadProjectConfig(id)
 
@@ -45,15 +45,15 @@ function updateProject(id) {
   )
 }
 
-function updateProjects () {
+function buildProjects () {
   readdirSync(PROJECTS_PATH).forEach(id =>
-    updateProject(id)
+    buildProject(id)
   )
 }
 
 if (require.main === module) {
-  updateProjects()
+  buildProjects()
 }
 
-module.exports = updateProjects
-exports.updateProject = updateProject
+module.exports = buildProjects
+exports.buildProject = buildProject

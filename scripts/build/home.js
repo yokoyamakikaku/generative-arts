@@ -7,8 +7,8 @@ const {
   PROJECTS_PATH
 } = require("../config")
 
-function createHome () {
-  console.log("start to create home page")
+function buildHome () {
+  console.log("start to build home page")
   const projects = readdirSync(PROJECTS_PATH).sort((a,b) => +a > +b ? 1 : -1)
   const html = pug.renderFile(HOME_TEMPLATE_PATH, { projects })
   writeFileSync(HOME_PATH, html)
@@ -16,7 +16,7 @@ function createHome () {
 }
 
 if (require.main === module) {
-  createHome()
+  buildHome()
 }
 
-module.exports = createHome
+module.exports = buildHome
