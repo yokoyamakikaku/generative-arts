@@ -1,11 +1,11 @@
-const WIDTH = 512,
-  HEIGHT = 512
+const WIDTH = 512
+const HEIGHT = 512
 
-function setup() {
+function setup () {
   createCanvas(WIDTH, HEIGHT)
   pixelDensity(1)
 }
 
-function draw() {
+function draw () {
   noLoop()
 }
